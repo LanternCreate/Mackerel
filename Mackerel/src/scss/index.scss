@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Section {
+    margin-top: 80px;
+}
+
+.Section + .Section {
+    margin-top: 120px;
+}
+
+.TextBox {
+    &__text {
+        &--em {
+            font-weight: 700;
+            margin-right: 50px;
+        }
+    }
+
+    &__text + &__text {
+        margin-top: 10px;
+    }
+}
+
+.Header {
+    &02 {
+        margin-bottom: 30px;
+
+        &__sub {
+            color: #0095c5;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    &03 {
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+
+.Background {
+    min-width: 1108px;
+
+    &--blue {
+        background: #94e5ff;
+    }
+
+    &--darkBlue {
+        background: #0095c5;
+    }
+
+    &--gray {
+        background: #f2f2f2;
+    }
+}
+
+.Hero {
+    display: flex;
+    width: 1108px;
+    height: 480px;
+    margin: 0 auto;
+    background: url(../images/hero.png) center / contain no-repeat;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__box {
+        display: flex;
+        width: 443px;
+        height: 360px;
+        background: #ffffff;
+        align-items: center;
+        justify-content: center;
+
+        &Inner {
+            width: 377px;
+        }
+    }
+}
+
+.Experience {
+    width: 1108px;
+    margin: 0 auto;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item + &__item {
+        margin-top: 40px;
+    }
+
+    &__textBox {
+        width: 348px;
+    }
+
+    &__image {
+        width: 728px;
+    }
+
+    &__menu {
+        display: flex;
+        margin-top: 95px;
+        justify-content: space-between;
+
+        &Item {
+            position: relative;
+            width: 348px;
+            padding: 40px 30px;
+            background: #f2f2f2;
+            box-sizing: border-box;
+        }
+
+        &Header {
+            position: absolute;
+            top: -15px;
+            left: 30px;
+        }
+
+        &Title {
+            margin-top: 30px;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        &Text {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        &Example {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: solid 1px #c4c4c4;
+            font-size: 18px;
+        }
+    }
+}
+
+.Strengths {
+    width: 1108px;
+    margin: 0 auto;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__textBox {
+        width: 348px;
+    }
+
+    &__image {
+        width: 728px;
+    }
+
+    &__nutrients {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+
+        &Item {
+            position: relative;
+            width: 253px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        &Title {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        &Text {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+.Future {
+    width: 1108px;
+    margin: 0 auto;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__textBox {
+        width: 348px;
+    }
+
+    &__image {
+        width: 728px;
+    }
+
+    &__activity {
+        display: flex;
+        width: 728px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &Item {
+            position: relative;
+            width: 348px;
+            padding: 30px;
+            background: #f2f2f2;
+            text-align: center;
+            box-sizing: border-box;
+
+            &:nth-child(n + 3) {
+                margin-top: 32px;
+            }
+        }
+
+        &Text {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+.Mackerel {
+    width: 1108px;
+    margin: 0 auto;
+
+    &__item {
+        display: flex;
+        height: 400px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__textBox {
+        width: 348px;
+    }
+}
+
+.Footer {
+    width: 1108px;
+    margin: 0 auto;
+
+    &__items {
+        display: flex;
+        height: 80px;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item + &__item {
+        margin-left: 30px;
+    }
+
+    &__link {
+        color: #ffffff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,321 @@
+* {
+    font-family: "Noto Sans JP";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.Section {
+    margin-top: 80px;
+}
+
+.Section + .Section {
+    margin-top: 120px;
+}
+
+.TextBox__text--em {
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.TextBox__text + .TextBox__text {
+    margin-top: 10px;
+}
+
+.Header02 {
+    margin-bottom: 30px;
+}
+
+.Header02__sub {
+    color: #0095c5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Header03 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Background {
+    min-width: 1108px;
+}
+
+.Background--blue {
+    background: #94e5ff;
+}
+
+.Background--darkBlue {
+    background: #0095c5;
+}
+
+.Background--gray {
+    background: #f2f2f2;
+}
+
+.Hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            align-items: center;
+    background: url(../images/hero.png) center/contain no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 480px;
+            justify-content: flex-end;
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Hero__box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            align-items: center;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 360px;
+            justify-content: center;
+    width: 443px;
+}
+
+.Hero__boxInner {
+    width: 377px;
+}
+
+.Experience {
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Experience__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            justify-content: space-between;
+}
+
+.Experience__item + .Experience__item {
+    margin-top: 40px;
+}
+
+.Experience__textBox {
+    width: 348px;
+}
+
+.Experience__image {
+    width: 728px;
+}
+
+.Experience__menu {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            justify-content: space-between;
+    margin-top: 95px;
+}
+
+.Experience__menuItem {
+    -webkit-box-sizing: border-box;
+    background: #f2f2f2;
+            box-sizing: border-box;
+    padding: 40px 30px;
+    position: relative;
+    width: 348px;
+}
+
+.Experience__menuHeader {
+    left: 30px;
+    position: absolute;
+    top: -15px;
+}
+
+.Experience__menuTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.Experience__menuText {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.Experience__menuExample {
+    border-top: solid 1px #c4c4c4;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.Strengths {
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Strengths__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            justify-content: space-between;
+}
+
+.Strengths__textBox {
+    width: 348px;
+}
+
+.Strengths__image {
+    width: 728px;
+}
+
+.Strengths__nutrients {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            justify-content: space-between;
+    margin-top: 80px;
+}
+
+.Strengths__nutrientsItem {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 253px;
+}
+
+.Strengths__nutrientsTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.Strengths__nutrientsText {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Future {
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Future__item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            justify-content: space-between;
+}
+
+.Future__textBox {
+    width: 348px;
+}
+
+.Future__image {
+    width: 728px;
+}
+
+.Future__activity {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    -ms-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-wrap: wrap;
+            justify-content: space-between;
+    width: 728px;
+}
+
+.Future__activityItem {
+    -webkit-box-sizing: border-box;
+    background: #f2f2f2;
+            box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    width: 348px;
+}
+
+.Future__activityItem:nth-child(n + 3) {
+    margin-top: 32px;
+}
+
+.Future__activityText {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Mackerel {
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Mackerel__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 400px;
+            justify-content: space-between;
+}
+
+.Mackerel__textBox {
+    width: 348px;
+}
+
+.Footer {
+    margin: 0 auto;
+    width: 1108px;
+}
+
+.Footer__items {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    list-style: none;
+}
+
+.Footer__item + .Footer__item {
+    margin-left: 30px;
+}
+
+.Footer__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Footer__link:hover {
+    text-decoration: underline;
+}
